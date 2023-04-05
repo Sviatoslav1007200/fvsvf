@@ -79,4 +79,85 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 3px 0 rgb(41, 41, 40)
   }
+  .Second_Button{
+    width: 175px;
+    height: 65px;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #8e8c91;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: 0.2s;
+    position: absolute;
+	margin: 0px 0px 0px 1050px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 33px;
+  }
+  
+  .Second_Button:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(49, 70, 187);
+  }
+  
+  .Second_Button:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(60, 99, 206)
+  }
+  
+  .Film{
+    position: relative;
+    top: 20px;
+    left: 110px;
+  }
+.Grow{
+    font-family: DM Sans;
+    font-size: 150px;
+    line-height: 1px;
+    letter-spacing: -2.5px;
+    font-style: normal;
+    position: relative;
+	margin: -0px 0px 0px 750px;
+}
+.American{
+    position: relative;
+    top: 0px;
+    left: -350px; 
+}
+.Grow_1{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #696871;
+    position: relative;
+    top: -70px;
+    left: 100px;
+}
+.third_Button{
+    width: 175px;
+    height: 65px;
+    position: relative;
+    cursor: pointer;
+    border:none;
+    background: #df8b1d;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.2s;
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+	margin: 0px 0px 0px 830px;
+}
+.third_Button:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 7px 0 rgb(44, 45, 49);
+}
+.third_Button:active{
+    transform: translateY(-2px);
+    box-shadow: 0 3px 0 rgb(55, 57, 65)
+}
   
